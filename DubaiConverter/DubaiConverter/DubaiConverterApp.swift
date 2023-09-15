@@ -1,14 +1,14 @@
 //
-//  Currency_AppApp.swift
-//  Currency App
+//  DubaiConverterApp.swift
+//  DubaiConverter
 //
-//  Created by Federico on 04/11/2021.
+//  Created by Francesco Micheli on 15/09/2023.
 //
 
 import SwiftUI
 
 @main
-struct Currency_AppApp: App {
+struct DubaiConverterApp: App {
     var body: some Scene {
         WindowGroup {
             ConverterView()

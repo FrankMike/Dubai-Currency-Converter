@@ -3,220 +3,199 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13BD7DC12AB42FED00A36EA7 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD7DC02AB42FED00A36EA7 /* TitleView.swift */; };
-		13BD7DC42AB4310100A36EA7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD7DC32AB4310100A36EA7 /* NetworkManager.swift */; };
-		13BD7DF02AB43C0D00A36EA7 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD7DEF2AB43C0D00A36EA7 /* Errors.swift */; };
-		7A97B36E2733C8B6007E421E /* Currency_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A97B36D2733C8B6007E421E /* Currency_AppApp.swift */; };
-		7A97B3702733C8B6007E421E /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A97B36F2733C8B6007E421E /* ConverterView.swift */; };
-		7A97B3722733C8B8007E421E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A97B3712733C8B8007E421E /* Assets.xcassets */; };
-		7A97B3752733C8B8007E421E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A97B3742733C8B8007E421E /* Preview Assets.xcassets */; };
-		7A97B37C2733CA47007E421E /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A97B37B2733CA47007E421E /* CurrencyModel.swift */; };
-		7A97B37F2733CC5D007E421E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 7A97B37E2733CC5D007E421E /* Alamofire */; };
+		13BD7DD32AB433F000A36EA7 /* DubaiConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD7DD22AB433F000A36EA7 /* DubaiConverterApp.swift */; };
+		13BD7DD52AB433F000A36EA7 /* ConverterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD7DD42AB433F000A36EA7 /* ConverterView.swift */; };
+		13BD7DD72AB433F100A36EA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BD7DD62AB433F100A36EA7 /* Assets.xcassets */; };
+		13BD7DDA2AB433F100A36EA7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13BD7DD92AB433F100A36EA7 /* Preview Assets.xcassets */; };
+		13BD7DED2AB43BA600A36EA7 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 13BD7DEC2AB43BA600A36EA7 /* Alamofire */; };
+		13BD7E0B2AB4719D00A36EA7 /* ConverterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD7E0A2AB4719D00A36EA7 /* ConverterViewModel.swift */; };
+		13BD7E0D2AB4752700A36EA7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD7E0C2AB4752700A36EA7 /* Model.swift */; };
+		13BD7E0F2AB4781000A36EA7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BD7E0E2AB4781000A36EA7 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		13BD7DC02AB42FED00A36EA7 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
-		13BD7DC32AB4310100A36EA7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		13BD7DEF2AB43C0D00A36EA7 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
-		7A97B36A2733C8B6007E421E /* Currency App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7A97B36D2733C8B6007E421E /* Currency_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_AppApp.swift; sourceTree = "<group>"; };
-		7A97B36F2733C8B6007E421E /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterView.swift; sourceTree = "<group>"; };
-		7A97B3712733C8B8007E421E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7A97B3742733C8B8007E421E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7A97B37B2733CA47007E421E /* CurrencyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		13BD7DCF2AB433F000A36EA7 /* DubaiConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubaiConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13BD7DD22AB433F000A36EA7 /* DubaiConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubaiConverterApp.swift; sourceTree = "<group>"; };
+		13BD7DD42AB433F000A36EA7 /* ConverterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterView.swift; sourceTree = "<group>"; };
+		13BD7DD62AB433F100A36EA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13BD7DD92AB433F100A36EA7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		13BD7E0A2AB4719D00A36EA7 /* ConverterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterViewModel.swift; sourceTree = "<group>"; };
+		13BD7E0C2AB4752700A36EA7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		13BD7E0E2AB4781000A36EA7 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7A97B3672733C8B6007E421E /* Frameworks */ = {
+		13BD7DCC2AB433F000A36EA7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A97B37F2733CC5D007E421E /* Alamofire in Frameworks */,
+				13BD7DED2AB43BA600A36EA7 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13BD7DBE2AB42F5C00A36EA7 /* Views */ = {
+		13BD7DC62AB433F000A36EA7 = {
 			isa = PBXGroup;
 			children = (
-				7A97B36F2733C8B6007E421E /* ConverterView.swift */,
-				13BD7DC02AB42FED00A36EA7 /* TitleView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		13BD7DBF2AB42FCB00A36EA7 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				13BD7DEE2AB43BFB00A36EA7 /* Alerts */,
-				13BD7DC22AB430EB00A36EA7 /* Managers */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		13BD7DC22AB430EB00A36EA7 /* Managers */ = {
-			isa = PBXGroup;
-			children = (
-				13BD7DC32AB4310100A36EA7 /* NetworkManager.swift */,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		13BD7DC52AB432CE00A36EA7 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7A97B37B2733CA47007E421E /* CurrencyModel.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		13BD7DEE2AB43BFB00A36EA7 /* Alerts */ = {
-			isa = PBXGroup;
-			children = (
-				13BD7DEF2AB43C0D00A36EA7 /* Errors.swift */,
-			);
-			path = Alerts;
-			sourceTree = "<group>";
-		};
-		7A97B3612733C8B6007E421E = {
-			isa = PBXGroup;
-			children = (
-				7A97B36C2733C8B6007E421E /* Currency App */,
-				7A97B36B2733C8B6007E421E /* Products */,
+				13BD7DD12AB433F000A36EA7 /* DubaiConverter */,
+				13BD7DD02AB433F000A36EA7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7A97B36B2733C8B6007E421E /* Products */ = {
+		13BD7DD02AB433F000A36EA7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7A97B36A2733C8B6007E421E /* Currency App.app */,
+				13BD7DCF2AB433F000A36EA7 /* DubaiConverter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7A97B36C2733C8B6007E421E /* Currency App */ = {
+		13BD7DD12AB433F000A36EA7 /* DubaiConverter */ = {
 			isa = PBXGroup;
 			children = (
-				7A97B36D2733C8B6007E421E /* Currency_AppApp.swift */,
-				13BD7DC52AB432CE00A36EA7 /* Model */,
-				13BD7DBE2AB42F5C00A36EA7 /* Views */,
-				13BD7DBF2AB42FCB00A36EA7 /* Utilities */,
-				7A97B3712733C8B8007E421E /* Assets.xcassets */,
-				7A97B3732733C8B8007E421E /* Preview Content */,
+				13BD7DD22AB433F000A36EA7 /* DubaiConverterApp.swift */,
+				13BD7E122AB4794300A36EA7 /* Views */,
+				13BD7E102AB4792A00A36EA7 /* Model */,
+				13BD7E112AB4793600A36EA7 /* Utilities */,
+				13BD7DD62AB433F100A36EA7 /* Assets.xcassets */,
+				13BD7DD82AB433F100A36EA7 /* Preview Content */,
 			);
-			path = "Currency App";
+			path = DubaiConverter;
 			sourceTree = "<group>";
 		};
-		7A97B3732733C8B8007E421E /* Preview Content */ = {
+		13BD7DD82AB433F100A36EA7 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7A97B3742733C8B8007E421E /* Preview Assets.xcassets */,
+				13BD7DD92AB433F100A36EA7 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		13BD7E102AB4792A00A36EA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				13BD7E0C2AB4752700A36EA7 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		13BD7E112AB4793600A36EA7 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				13BD7E0E2AB4781000A36EA7 /* NetworkManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		13BD7E122AB4794300A36EA7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				13BD7DD42AB433F000A36EA7 /* ConverterView.swift */,
+				13BD7E0A2AB4719D00A36EA7 /* ConverterViewModel.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7A97B3692733C8B6007E421E /* Currency App */ = {
+		13BD7DCE2AB433F000A36EA7 /* DubaiConverter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A97B3782733C8B8007E421E /* Build configuration list for PBXNativeTarget "Currency App" */;
+			buildConfigurationList = 13BD7DDD2AB433F100A36EA7 /* Build configuration list for PBXNativeTarget "DubaiConverter" */;
 			buildPhases = (
-				7A97B3662733C8B6007E421E /* Sources */,
-				7A97B3672733C8B6007E421E /* Frameworks */,
-				7A97B3682733C8B6007E421E /* Resources */,
+				13BD7DCB2AB433F000A36EA7 /* Sources */,
+				13BD7DCC2AB433F000A36EA7 /* Frameworks */,
+				13BD7DCD2AB433F000A36EA7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Currency App";
+			name = DubaiConverter;
 			packageProductDependencies = (
-				7A97B37E2733CC5D007E421E /* Alamofire */,
+				13BD7DEC2AB43BA600A36EA7 /* Alamofire */,
 			);
-			productName = "Currency App";
-			productReference = 7A97B36A2733C8B6007E421E /* Currency App.app */;
+			productName = DubaiConverter;
+			productReference = 13BD7DCF2AB433F000A36EA7 /* DubaiConverter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7A97B3622733C8B6007E421E /* Project object */ = {
+		13BD7DC72AB433F000A36EA7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					7A97B3692733C8B6007E421E = {
-						CreatedOnToolsVersion = 13.0;
+					13BD7DCE2AB433F000A36EA7 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 7A97B3652733C8B6007E421E /* Build configuration list for PBXProject "Currency App" */;
-			compatibilityVersion = "Xcode 13.0";
+			buildConfigurationList = 13BD7DCA2AB433F000A36EA7 /* Build configuration list for PBXProject "DubaiConverter" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 7A97B3612733C8B6007E421E;
+			mainGroup = 13BD7DC62AB433F000A36EA7;
 			packageReferences = (
-				7A97B37D2733CC5D007E421E /* XCRemoteSwiftPackageReference "Alamofire" */,
+				13BD7DEB2AB43BA600A36EA7 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
-			productRefGroup = 7A97B36B2733C8B6007E421E /* Products */;
+			productRefGroup = 13BD7DD02AB433F000A36EA7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7A97B3692733C8B6007E421E /* Currency App */,
+				13BD7DCE2AB433F000A36EA7 /* DubaiConverter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7A97B3682733C8B6007E421E /* Resources */ = {
+		13BD7DCD2AB433F000A36EA7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A97B3752733C8B8007E421E /* Preview Assets.xcassets in Resources */,
-				7A97B3722733C8B8007E421E /* Assets.xcassets in Resources */,
+				13BD7DDA2AB433F100A36EA7 /* Preview Assets.xcassets in Resources */,
+				13BD7DD72AB433F100A36EA7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7A97B3662733C8B6007E421E /* Sources */ = {
+		13BD7DCB2AB433F000A36EA7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A97B37C2733CA47007E421E /* CurrencyModel.swift in Sources */,
-				7A97B3702733C8B6007E421E /* ConverterView.swift in Sources */,
-				13BD7DC42AB4310100A36EA7 /* NetworkManager.swift in Sources */,
-				7A97B36E2733C8B6007E421E /* Currency_AppApp.swift in Sources */,
-				13BD7DF02AB43C0D00A36EA7 /* Errors.swift in Sources */,
-				13BD7DC12AB42FED00A36EA7 /* TitleView.swift in Sources */,
+				13BD7DD52AB433F000A36EA7 /* ConverterView.swift in Sources */,
+				13BD7E0B2AB4719D00A36EA7 /* ConverterViewModel.swift in Sources */,
+				13BD7E0F2AB4781000A36EA7 /* NetworkManager.swift in Sources */,
+				13BD7DD32AB433F000A36EA7 /* DubaiConverterApp.swift in Sources */,
+				13BD7E0D2AB4752700A36EA7 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		7A97B3762733C8B8007E421E /* Debug */ = {
+		13BD7DDB2AB433F100A36EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -260,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,14 +249,13 @@
 			};
 			name = Debug;
 		};
-		7A97B3772733C8B8007E421E /* Release */ = {
+		13BD7DDC2AB433F100A36EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -315,7 +293,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -325,18 +303,19 @@
 			};
 			name = Release;
 		};
-		7A97B3792733C8B8007E421E /* Debug */ = {
+		13BD7DDE2AB433F100A36EA7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Currency App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DubaiConverter/Preview Content\"";
 				DEVELOPMENT_TEAM = 52G98N4K4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Dubai Converter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -347,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.micheli.DubaiConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Micheli.DubaiConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -355,18 +334,19 @@
 			};
 			name = Debug;
 		};
-		7A97B37A2733C8B8007E421E /* Release */ = {
+		13BD7DDF2AB433F100A36EA7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Currency App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"DubaiConverter/Preview Content\"";
 				DEVELOPMENT_TEAM = 52G98N4K4T;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Dubai Converter";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.finance";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -377,7 +357,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.micheli.DubaiConverter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Micheli.DubaiConverter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -388,20 +368,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7A97B3652733C8B6007E421E /* Build configuration list for PBXProject "Currency App" */ = {
+		13BD7DCA2AB433F000A36EA7 /* Build configuration list for PBXProject "DubaiConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A97B3762733C8B8007E421E /* Debug */,
-				7A97B3772733C8B8007E421E /* Release */,
+				13BD7DDB2AB433F100A36EA7 /* Debug */,
+				13BD7DDC2AB433F100A36EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A97B3782733C8B8007E421E /* Build configuration list for PBXNativeTarget "Currency App" */ = {
+		13BD7DDD2AB433F100A36EA7 /* Build configuration list for PBXNativeTarget "DubaiConverter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7A97B3792733C8B8007E421E /* Debug */,
-				7A97B37A2733C8B8007E421E /* Release */,
+				13BD7DDE2AB433F100A36EA7 /* Debug */,
+				13BD7DDF2AB433F100A36EA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -409,23 +389,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7A97B37D2733CC5D007E421E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		13BD7DEB2AB43BA600A36EA7 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7A97B37E2733CC5D007E421E /* Alamofire */ = {
+		13BD7DEC2AB43BA600A36EA7 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7A97B37D2733CC5D007E421E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 13BD7DEB2AB43BA600A36EA7 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 7A97B3622733C8B6007E421E /* Project object */;
+	rootObject = 13BD7DC72AB433F000A36EA7 /* Project object */;
 }
