@@ -10,14 +10,16 @@ import Alamofire
 
 class NetworkManager: ObservableObject {
     
+    var isPresented: Bool = false
+    
     func apiRequest(url: String, completion: @escaping (Currency) -> ()) {
         Session.default.request(url).responseDecodable(of: Currency.self) { response in
             switch response.result {
             case .success(let currencies):
                 completion(currencies)
             case .failure(let error):
-                //TODO: Error handling
                 print(error)
+                self.isPresented = true
             }
         }
     }
