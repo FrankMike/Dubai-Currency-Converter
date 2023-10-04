@@ -13,6 +13,8 @@ struct ConverterView: View {
     @FocusState private var inputIsFocused: Bool
     @StateObject private var viewModel = ConverterViewMOdel()
     
+    private var api_key = ""
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -44,7 +46,7 @@ struct ConverterView: View {
                     .focused($inputIsFocused)
                     
                     Button {
-                        viewModel.makeRequest()
+                        viewModel.makeRequest(api_key: api_key)
                         viewModel.input = ""
                         inputIsFocused = false
                     } label: {
@@ -58,7 +60,7 @@ struct ConverterView: View {
             }
             .navigationTitle("💵 💶 Dubai Converter")
             .onAppear() {
-                viewModel.makeRequest()
+                viewModel.makeRequest(api_key: api_key)
             }
         }
     }
